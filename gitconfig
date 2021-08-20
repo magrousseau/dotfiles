@@ -46,6 +46,10 @@
 
 [branch "master"]
   mergeoptions = --no-edit
+
 [user]
 	email = rousseaumagali@gmail.com
 	name = Magali Rousseau
+
+[pull]
+  rebase = false
