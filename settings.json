@@ -75,5 +75,10 @@
     {
         "rubocop": true
     },
-    "workbench.startupEditor": "newUntitledFile"
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.editorAssociations": {
+      "*.ipynb": "jupyter-notebook"
+    },
+    "workbench.colorTheme": "Default Light+",
+    "window.zoomLevel": -1
 }

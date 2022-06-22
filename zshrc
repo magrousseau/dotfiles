@@ -64,4 +64,28 @@ export LC_ALL=en_US.UTF-8
 
 export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -a"
 
-export PYTHONPATH="/Users/magalirousseau/Desktop/04-Decision-Science:$PYTHONPATH"
+export PYTHONPATH="/Users/magalirousseau/code/magrousseau/data-challenges/04-Decision-Science:$PYTHONPATH"
+# export PYTHONPATH="/Users/magalirousseau/code/lewagon/data-challenges-recap/04-Decision-Science:$PYTHONPATH"
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc' ]; then . '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc' ]; then . '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc'; fi
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/Users/magalirousseau/miniforge3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/Users/magalirousseau/miniforge3/etc/profile.d/conda.sh" ]; then
+        . "/Users/magalirousseau/miniforge3/etc/profile.d/conda.sh"
+    else
+        export PATH="/Users/magalirousseau/miniforge3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+
+# PROMPT='%n->'

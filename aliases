@@ -7,3 +7,5 @@ alias serve='ruby -run -e httpd . -p 8000' # Or python -m SimpleHTTPServer :)
 
 alias jn="jupyter notebook"
 alias jl="jupyter lab"
+export GOOGLE_APPLICATION_CREDENTIALS=/Users/magalirousseau/code/gcp/favorable-mix-326512-9f667c73579e.json
+export GOOGLE_APPLICATION_CREDENTIALS=/Users/magalirousseau/code/gcp/wagon-bootcamp-332411-d9687104000a.json
